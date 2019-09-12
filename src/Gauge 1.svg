@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="242px" height="251px" viewBox="0 0 242 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 23</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-20.5%" y="-6.4%" width="140.9%" height="112.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-23" transform="translate(0.000000, -1.000000)">
+            <circle id="Oval-5" fill="" cx="121" cy="131" r="121"></circle>
+            <circle id="Oval-5-Copy-3" fill="#222338" cx="121" cy="131" r="96"></circle>
+            <path d="M151.907331,26.753845 C152.735758,26.753845 153.407331,27.4254179 153.407331,28.253845 L153.407331,54.253845 C153.407331,55.0822721 152.735758,55.753845 151.907331,55.753845 C151.078904,55.753845 150.407331,55.0822721 150.407331,54.253845 L150.407331,28.253845 C150.407331,27.4254179 151.078904,26.753845 151.907331,26.753845 Z" id="Rectangle-12" fill="#1D1E30" transform="translate(151.907331, 41.253845) rotate(18.000000) translate(-151.907331, -41.253845) "></path>
+            <path d="M91.9073312,26.753845 C92.7357583,26.753845 93.4073312,27.4254179 93.4073312,28.253845 L93.4073312,54.253845 C93.4073312,55.0822721 92.7357583,55.753845 91.9073312,55.753845 C91.0789041,55.753845 90.4073312,55.0822721 90.4073312,54.253845 L90.4073312,28.253845 C90.4073312,27.4254179 91.0789041,26.753845 91.9073312,26.753845 Z" id="Rectangle-12-Copy" fill="#1D1E30" transform="translate(91.907331, 41.253845) scale(-1, 1) rotate(18.000000) translate(-91.907331, -41.253845) "></path>
+            <path d="M43.6124243,61.2364116 C44.4408514,61.2364116 45.1124243,61.9079845 45.1124243,62.7364116 L45.1124243,88.7364116 C45.1124243,89.5648388 44.4408514,90.2364116 43.6124243,90.2364116 C42.7839972,90.2364116 42.1124243,89.5648388 42.1124243,88.7364116 L42.1124243,62.7364116 C42.1124243,61.9079845 42.7839972,61.2364116 43.6124243,61.2364116 Z" id="Rectangle-12-Copy-2" fill="#1D1E30" transform="translate(43.612424, 75.736412) scale(-1, 1) rotate(54.000000) translate(-43.612424, -75.736412) "></path>
+            <path d="M199.612424,61.2364116 C200.440851,61.2364116 201.112424,61.9079845 201.112424,62.7364116 L201.112424,88.7364116 C201.112424,89.5648388 200.440851,90.2364116 199.612424,90.2364116 C198.783997,90.2364116 198.112424,89.5648388 198.112424,88.7364116 L198.112424,62.7364116 C198.112424,61.9079845 198.783997,61.2364116 199.612424,61.2364116 Z" id="Rectangle-12-Copy-3" fill="#1D1E30" transform="translate(199.612424, 75.736412) rotate(54.000000) translate(-199.612424, -75.736412) "></path>
+            <circle id="Oval-5-Copy-4" fill="#2B89F3" cx="121.5" cy="131.5" r="83.5"></circle>
+            <circle id="Oval-5-Copy-5" fill="#222338" transform="translate(122.000000, 132.000000) rotate(54.000000) translate(-122.000000, -132.000000) " cx="122" cy="132" r="81"></circle>
+            <rect id="Rectangle-11" fill="#212236" x="0" y="129" width="242" height="123"></rect>
+            <circle id="Oval-6" fill="#F1342F" cx="12.5" cy="127.5" r="12.5"></circle>
+            <circle id="Oval-6-Copy-2" fill="#2B89F3" cx="40" cy="127" r="4"></circle>
+            <circle id="Oval-6-Copy-3" fill="#2B89F3" cx="204" cy="127" r="4"></circle>
+            <g id="Group-22" filter="url(#filter-1)" transform="translate(109.000000, 1.000000)">
+                <g id="I" transform="translate(22.000000, 70.000000) rotate(12.000000) translate(-22.000000, -70.000000) translate(15.000000, 0.000000)">
+                    <polygon id="Triangle" fill="#D27800" points="7 0 12 140 7 137 2 140"></polygon>
+                    <circle id="Oval-7" stroke="#D27800" stroke-width="2" fill="#1D1E30" cx="7" cy="128" r="7"></circle>
+                    <rect id="Rectangle-13" fill="#D27800" x="5" y="114" width="4" height="11" rx="2"></rect>
+                    <circle id="Oval-7" fill="#D27800" cx="7" cy="128" r="2"></circle>
+                </g>
+            </g>
+            <circle id="Oval-6-Copy" fill="#53F12C" cx="229.5" cy="127.5" r="12.5"></circle>
+            <text id="Revenue" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#CEDFF2">
+                <tspan x="87.3671875" y="167">REVENUE</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
