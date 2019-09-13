@@ -1,31 +1,41 @@
 .Dial {
-  text-align: center;
   margin-top: 80px;
   position: static;
 }
 
-/* g.gauge-colour {
-  transform: rotateX(180deg);
 
-} */
+
+.svg-container {
+  position: relative;
+  left: 50%;
+transform: translateX(-50%);
+  border: 3px solid red;
+  width: 242px;
+  height: 251px;
+}
 
 #minimum {
-  margin-right: 200px;
-  /* margin-top: 200px; */
+position: absolute;
+top: 120px;
+  left: -20px;
+}
+
+#maximum {
+  position: absolute;
+top: 120px;
+  right: -20px;
 }
 
 #lower {
   float: left;
 }
 
-/* #current {
-  
-} */
 
-#Triangle {
-  transform-origin: 100%;
+
+/* #Triangle { */
+  /* transform-origin: 100%; */
   /* transform: rotate(80deg); */
-}
+/* } */
 
 
 #upper {

@@ -50,9 +50,7 @@
             </g>
             <circle id="Oval-6-Copy" fill="#53F12C" cx="229.5" cy="127.5" r="12.5"></circle>
             <text id="Revenue" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#CEDFF2">
-                <tspan x="87.3671875" y="167">REVENUE</tspan> 
-                    <tspan x="10" y="10">SVG 2</tspan>  
-               
+                <tspan x="87.3671875" y="167">REVENUE</tspan>                
             </text>            
         </g>
     </g>
