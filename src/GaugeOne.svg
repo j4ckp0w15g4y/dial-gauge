@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="242px" height="251px" viewBox="0 0 242 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="242px" height="251px" viewBox="0 0 242 251" version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
     <title>Group 23</title>
     <desc>Created with Sketch.</desc>
@@ -16,6 +18,14 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-23" transform="translate(0.000000, -1.000000)">
+            <circle id="low" r="100" cx="50%" cy="50%" stroke="#F1342F" stroke-width="40" stroke-dasharray="471, 943">
+            </circle>
+           <circle id="avg" r="150" cx="50%" cy="50%" stroke="#7CCCE5" stroke-width="40" stroke-dasharray="314, 943">
+            </circle>
+
+
+            <!-- <circle id="high" r="100" cx="50%" cy="60%" stroke="#53F12C" stroke-width="40" stroke-dasharray="157, 943">
+            </circle> -->
             <circle id="Oval-5" fill="" cx="121" cy="131" r="121"></circle>
             <circle id="Oval-5-Copy-3" fill="#222338" cx="121" cy="131" r="96"></circle>
             <path d="M151.907331,26.753845 C152.735758,26.753845 153.407331,27.4254179 153.407331,28.253845 L153.407331,54.253845 C153.407331,55.0822721 152.735758,55.753845 151.907331,55.753845 C151.078904,55.753845 150.407331,55.0822721 150.407331,54.253845 L150.407331,28.253845 C150.407331,27.4254179 151.078904,26.753845 151.907331,26.753845 Z" id="Rectangle-12" fill="#1D1E30" transform="translate(151.907331, 41.253845) rotate(18.000000) translate(-151.907331, -41.253845) "></path>

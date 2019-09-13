@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css'
-import { ReactComponent as Icon} from './GaugeOne.svg';
+import Dial from './components/Dial'
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Icon />
+        <Dial />
       </div>
     );
   }
