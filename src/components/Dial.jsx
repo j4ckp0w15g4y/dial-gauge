@@ -24,6 +24,9 @@ class Dial extends Component {
                 <div className="svg-container">
                     <Icon className="dial-svg" />
                     <div id="minimum">{this.state.minimum5Year}</div>
+                    <div id="lower">{this.state.lowerRange5Year}</div>
+                    <div id="current">{this.state.currentValue}</div>
+                    <div id="upper">{this.state.upperRange5Year}</div>
                     <div id="maximum">{this.state.maximum5Year}</div>
 
                     {/* <div id="lower">{this.state.lowerRange5Year}</div>
