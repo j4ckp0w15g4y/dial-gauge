@@ -12,7 +12,7 @@ class Dial extends Component {
             mean5Year: 0,
             minimum5Year: 0,
             upperRange5Year: 0,
-            movement5Year: 0,
+            movement5Year: 46,
             movementPercentage5Year: 0
         }
     }
