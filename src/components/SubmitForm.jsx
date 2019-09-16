@@ -6,8 +6,7 @@ class SubmitForm extends Component {
             <div className="">
                 <form>
                     <select type="text"
-                        onChange={this.props.submitFunc}
-                    // value={this.props.}
+                        onChange={this.props.submitFunc}                        
                     >
                         <option value=''>Select Row</option>
                         <option value="rowOne">Row One</option>

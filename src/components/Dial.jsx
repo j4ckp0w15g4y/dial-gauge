@@ -3,30 +3,25 @@ import { ReactComponent as Icon } from '../GaugeOne.svg';
 
 import '../App.css';
 
-let chosenRow;
-
 class Dial extends Component {
     constructor(props) {
         super(props);
         this.state = {            
-            currentValue: 0,
-            lowerRange5Year: 0,
-            maximum5Year: 0,
-            minimum5Year: 0,
-            upperRange5Year: 0,
-            movement5Year: 0,
-            movementPercentage5Year: 0
+            currentValue: this.props.rowValue.currentValue,
+            lowerRange5Year: this.props.rowValue.lowerRange5Year,
+            maximum5Year: this.props.rowValue.maximum5Year,
+            minimum5Year: this.props.rowValue.minimum5Year,
+            upperRange5Year: this.props.rowValue.upperRange5Year,
+            movement5Year: this.props.rowValue.movement5Year,
+            movementPercentage5Year: this.props.rowValue.movementPercentage5Year
         }
     }
 
-    // What do I need to do? 
-    // set state dependent on a submit form
-    // e.g. if e.target.value === 'RowOne': this.setState({
-    //       
-    // })
+ 
 
 
     render() {
+        console.log(this.props.rowValue)
         return (
             <div className="Dial">
                 <div className="svg-container">
