@@ -75,8 +75,9 @@ class App extends Component {
           : (certainRow === this.state.rowTwo.row) ? <Dial rowValue={rowTwo} />
             : (certainRow === this.state.rowThree.row) ? <Dial rowValue={rowThree} /> : null
         }
-        <SubmitForm submitFunc={this.submitFunc} />
-
+        <div className="submit-form">
+          <SubmitForm submitFunc={this.submitFunc} />
+        </div>
       </div>
     );
   }
