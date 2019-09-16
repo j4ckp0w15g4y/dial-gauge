@@ -43,28 +43,12 @@ class App extends Component {
     }
   }
 
-  // 
-
-  // trueFunc = () => {
-  //   if (this.state.certainRow === this.state.rowOne.row) {
-  //     console.log(true)
-  //   } else {
-  //     console.log(false)
-  //   }
-  // }
-
-  // 
 
   submitFunc = (e) => {
     this.setState({
       certainRow: e.target.value
     })
   }
-
-
-  // e.preventdefault
-
-
 
   render() {
     let { certainRow, rowOne, rowTwo, rowThree } = this.state;
@@ -83,6 +67,5 @@ class App extends Component {
   }
 }
 
-// if a certain variable 
 
 export default App;
