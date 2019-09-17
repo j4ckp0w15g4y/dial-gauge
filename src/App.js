@@ -61,7 +61,6 @@ class App extends Component {
 
   render() {
     let { certainRow, rowZero, rowOne, rowTwo, rowThree } = this.state;
-    console.log(certainRow)
     return (
       <div className="App">
         <h1 className="dial-text">Dial Gauge Test App</h1>
