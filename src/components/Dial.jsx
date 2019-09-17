@@ -19,9 +19,6 @@ class Dial extends Component {
         }
     }
 
-
-
-
     render() {
         let { rowValue } = this.state;
         return (
