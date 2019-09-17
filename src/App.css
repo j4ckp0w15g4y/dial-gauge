@@ -3,6 +3,10 @@
   position: static;
 }
 
+.dial-text {
+  text-align: center;
+  text-decoration: underline;
+}
 
 
 .svg-container {

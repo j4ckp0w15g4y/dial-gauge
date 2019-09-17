@@ -9,6 +9,15 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      rowZero: {
+        currentValue: 0,
+        lowerRange5Year: 0,
+        maximum5Year: 0,
+        minimum5Year: 0,
+        upperRange5Year: 0,
+        movement5Year: 0,
+        movementPercentage5Year: 0
+      },
       rowOne: {
         row: 'rowOne',
         currentValue: 76.5,
@@ -51,13 +60,14 @@ class App extends Component {
   }
 
   render() {
-    let { certainRow, rowOne, rowTwo, rowThree } = this.state;
+    let { certainRow, rowZero, rowOne, rowTwo, rowThree } = this.state;
     console.log(certainRow)
     return (
       <div className="App">
+        <h1 className="dial-text">Dial Gauge Test App</h1>
         {(certainRow === this.state.rowOne.row) ? <Dial rowValue={rowOne} />
           : (certainRow === this.state.rowTwo.row) ? <Dial rowValue={rowTwo} />
-            : (certainRow === this.state.rowThree.row) ? <Dial rowValue={rowThree} /> : <Dial />
+            : (certainRow === this.state.rowThree.row) ? <Dial rowValue={rowThree} /> : <Dial rowValue={rowZero}/>
         }
         <div className="submit-form">
           <SubmitForm submitFunc={this.submitFunc} />
